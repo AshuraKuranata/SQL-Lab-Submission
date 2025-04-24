@@ -1,5 +1,5 @@
 -- 1. The average square footage of all offices.
-SELECT SUM(sq_ft) id FROM offices;
+SELECT AVG(sq_ft) id FROM offices;
 
 -- 2. The total number of apartments.
 SELECT COUNT(id) FROM apartments;
